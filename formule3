@@ -1,0 +1,32 @@
+digraph {
+	graph [rankdir=TB]
+	node [fillcolor=white shape=circle style=filled]
+	0 [label=AU]
+	node [fillcolor=white shape=circle style=filled]
+	00 [label=AF]
+	0 -> 00
+	node [fillcolor=white shape=circle style=filled]
+	000 [label=EU]
+	00 -> 000
+	node [fillcolor=white shape=box style=filled]
+	0000 [label=a]
+	000 -> 0000
+	node [fillcolor=white shape=box style=filled]
+	0001 [label=b]
+	000 -> 0001
+	node [fillcolor=white shape=circle style=filled]
+	01 [label=EX]
+	0 -> 01
+	node [fillcolor=white shape=circle style=filled]
+	010 [label=AX]
+	01 -> 010
+	node [fillcolor=white shape=circle style=filled]
+	0100 [label=AU]
+	010 -> 0100
+	node [fillcolor=white shape=box style=filled]
+	01000 [label=c]
+	0100 -> 01000
+	node [fillcolor=white shape=box style=filled]
+	01001 [label=d]
+	0100 -> 01001
+}
